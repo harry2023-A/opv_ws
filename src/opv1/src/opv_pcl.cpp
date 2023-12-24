@@ -102,7 +102,7 @@ int main(int argc, char **argv)
     ros::NodeHandle nh;
 
     // 从bag文件中读取点云数据
-    readBagFile("small_a.bag");
+    readBagFile("/home/ubuntu/project/small_a.bag");
 
     // ... 其他的初始化和设置
 

@@ -17,8 +17,8 @@
 #include <pcl/visualization/cloud_viewer.h>
 #include <boost/foreach.hpp>
 
-std::string src_bag = "small_a.bag";
-std::string new_bag = "imu_pcd_image.bag";
+std::string src_bag = "/home/ubuntu/project/small_a.bag";
+std::string new_bag = "/home/ubuntu/project/imu_pcd_image.bag";
 std::string imu_topic = "/imu/data_raw";
 std::string pcd2_topic = "/rslidar_points";
 std::string odom_topic = "/odom";
